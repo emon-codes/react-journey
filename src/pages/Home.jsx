@@ -1,8 +1,12 @@
 import React from 'react'
+import useData from '../Hooks/useData'
 
 const Home = () => {
+
+
+
   return (
-    <div>Home</div>
+    <div></div>
   )
 }
 

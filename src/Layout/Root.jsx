@@ -9,7 +9,7 @@ const Root = () => {
       <>
           <Header></Header>
           <Outlet />
-          <SectionHeading/>
+          
           <Footer/>
       
       </>

@@ -1,66 +1,90 @@
 [
   {
     "id": 1,
-    "name": "Wireless Bluetooth Headphones",
-    "price": 2499,
-    "details": "Premium wireless headphones with noise cancellation and 30 hours battery backup.",
-    "rating": 4.8,
+    "categoryId": 1,
+    "categoryName": "Audio",
+    "name": "Sony WH-1000XM5",
+    "brand": "Sony",
+    "price": 42999,
+    "details": "Industry-leading noise cancelling wireless headphones with up to 30 hours of battery life.",
+    "rating": 4.9,
     "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600"
   },
   {
     "id": 2,
-    "name": "Gaming Mechanical Keyboard",
-    "price": 3999,
-    "details": "RGB backlit mechanical keyboard with blue switches and durable aluminum body.",
-    "rating": 4.7,
-    "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=600"
+    "categoryId": 2,
+    "categoryName": "Laptops",
+    "name": "MacBook Air M3",
+    "brand": "Apple",
+    "price": 164999,
+    "details": "13-inch laptop powered by Apple's M3 chip with all-day battery life.",
+    "rating": 4.9,
+    "image": "https://www.fotocart.com.bd/storage/product-photos/apple-macbook-air-13-1.jpg"
   },
   {
     "id": 3,
-    "name": "Smart Watch Pro",
-    "price": 5999,
-    "details": "Fitness tracking, heart rate monitor, GPS, and waterproof smart watch.",
-    "rating": 4.6,
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600"
+    "categoryId": 3,
+    "categoryName": "Smartphones",
+    "name": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "price": 149999,
+    "details": "Flagship smartphone featuring Snapdragon processor, 200MP camera, and S Pen.",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600"
   },
   {
     "id": 4,
-    "name": "Portable Bluetooth Speaker",
-    "price": 1999,
-    "details": "Powerful bass, IPX7 waterproof, and 20 hours of playtime.",
-    "rating": 4.5,
-    "image": "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=600"
+    "categoryId": 4,
+    "categoryName": "Smart Watches",
+    "name": "Apple Watch Series 9",
+    "brand": "Apple",
+    "price": 54999,
+    "details": "Advanced fitness tracking, ECG, blood oxygen monitoring, and GPS.",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600"
   },
   {
     "id": 5,
-    "name": "Apple AirPods Pro",
-    "price": 26999,
-    "details": "Active Noise Cancellation, Transparency mode, and spatial audio support.",
-    "rating": 4.9,
-    "image": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=600"
+    "categoryId": 5,
+    "categoryName": "Tablets",
+    "name": "iPad Air",
+    "brand": "Apple",
+    "price": 79999,
+    "details": "Powerful tablet with Liquid Retina display and Apple Pencil support.",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600"
   },
   {
     "id": 6,
-    "name": "Dell 24-inch Monitor",
-    "price": 15999,
-    "details": "Full HD IPS display with ultra-thin bezels and eye comfort technology.",
+    "categoryId": 6,
+    "categoryName": "Gaming",
+    "name": "PlayStation 5",
+    "brand": "Sony",
+    "price": 74999,
+    "details": "Next-generation gaming console with ultra-fast SSD and 4K gaming support.",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=600"
+  },
+  {
+    "id": 7,
+    "categoryId": 7,
+    "categoryName": "Monitors",
+    "name": "LG UltraGear 27-inch",
+    "brand": "LG",
+    "price": 38999,
+    "details": "27-inch QHD gaming monitor with 165Hz refresh rate and IPS display.",
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600"
   },
   {
-    "id": 7,
-    "name": "Logitech Wireless Mouse",
-    "price": 1499,
-    "details": "Ergonomic wireless mouse with silent clicks and long battery life.",
-    "rating": 4.6,
-    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=600"
-  },
-  {
     "id": 8,
-    "name": "USB-C Fast Charger",
-    "price": 999,
-    "details": "33W fast charger compatible with Android and iPhone devices.",
-    "rating": 4.4,
+    "categoryId": 8,
+    "categoryName": "Accessories",
+    "name": "Anker 65W GaN Charger",
+    "brand": "Anker",
+    "price": 4999,
+    "details": "Compact 65W USB-C fast charger for laptops, smartphones, and tablets.",
+    "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=600"
   }
 ]

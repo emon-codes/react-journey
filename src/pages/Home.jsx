@@ -3,15 +3,15 @@ import useData from '../Hooks/useData'
 
 const Home = () => {
 
- const {product} = useData()
+ const {products} = useData()
 
 
   return (
-    <div className='flex flex-row flex-wrap gap-3'>{product.map((produc) => (
+    <div className='flex flex-row flex-wrap gap-3'>{products.map((product) => (
       <div  >
         <div>
-          <img className='w-64 h-80 shadow-md object-cover rounded-md' src={produc.image} alt="" />
-          <h1>{produc.name }</h1>
+          <img className='w-64 h-80 shadow-md object-cover rounded-md' src={product.image} alt="" />
+          <h1>{product.name }</h1>
         </div>
 
 

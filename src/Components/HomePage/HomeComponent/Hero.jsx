@@ -3,8 +3,8 @@ import useData from "../../../Hooks/useData";
 import SectionHeading from "../../SectionHeading";
 
 const Hero = () => {
-    const { products } = useData();
-    console.log("SectionHeading Render");
+  const { products } = useData();
+  console.log("SectionHeading Render");
 
   return (
     <div>
@@ -18,18 +18,19 @@ const Hero = () => {
                 alt=""
               />
               <h1>{product.name}</h1>
+              <h1>{product.categoryName}</h1>
             </div>
           </div>
         ))}
       </div>
-          <div>
-              <SectionHeading heading={"Propular"} colorHeading={"productss"} headingDescription={"Shop online for new arrivals and get free shoping!"}>
-                 
-
-
-              </SectionHeading>
-
-
+      <div>
+        <SectionHeading
+          heading={"Propular"}
+          colorHeading={"productss"}
+          headingDescription={
+            "Shop online for new arrivals and get free shoping!"
+          }
+        ></SectionHeading>
       </div>
     </div>
   );

@@ -1,10 +1,10 @@
-import React from "react";
+
 import useData from "../../../Hooks/useData";
 import SectionHeading from "../../SectionHeading";
 
 const Hero = () => {
   const { products } = useData();
-  console.log("SectionHeading Render");
+
 
   return (
     <div>
